@@ -75,7 +75,9 @@ def send_message(dingtalk_webhook_accesstoken, dingtalk_secret):
 
 if __name__ == '__main__':
     dingtalk = [
+        # 钉钉群机器人对应的accesstoken
         ["accesstoken",
+         # 钉钉群机器人对应的secret
          "dingtalk_secret"],
         ["accesstoken",
          "dingtalk_secret"]]
